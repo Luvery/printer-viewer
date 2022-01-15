@@ -1,0 +1,22 @@
+{
+  "printers": [
+    {
+      "brand": "Brother",
+      "model": "dcp-t520w",
+      "type": "atramentowa",
+      "price": "1000"
+    },
+    {
+      "brand": "Brother",
+      "model": "dcp-t525w",
+      "type": "atramentowa",
+      "price": "1000"
+    },
+    {
+      "brand": "Brother",
+      "model": "dcp-b7520dw",
+      "type": "laserowa",
+      "price": "1500"
+    }
+  ]
+}
