@@ -3,28 +3,28 @@
     {
       "id": 1,
       "brand": "Brother",
-      "model": "dcp-b7520dw- amagazing",
+      "model": "dcp-b7520dw",
       "type": "laserowa",
       "price": 1500
     },
     {
       "id": 2,
       "brand": "Brother",
-      "model": "dcp-t525w - wonderfulll",
+      "model": "dcp-t525w",
       "type": "atramentowa",
       "price": 1000
     },
     {
       "id": 3,
       "brand": "Brother",
-      "model": "dcp-t520w - lore ipsum kupsztal mentasza",
+      "model": "dcp-t520w",
       "type": "atramentowa",
       "price": 1000
     },
     {
       "id": 4,
       "brand": "Brother",
-      "model": "duplicatelong",
+      "model": "duplicate",
       "type": "igłowa",
       "price": 1000
     }
