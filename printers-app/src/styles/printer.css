@@ -1,0 +1,21 @@
+.listItem {
+margin : 35px;
+padding: 15px;
+border-radius: 4%;
+border-style:solid;
+border-color:rgb(231, 111, 111);
+border-width:2px;
+}
+.picture{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 4%;
+}
+.App-link {
+    color: #61dafb;
+    text-decoration: none;
+
+  }
+  .App-link:hover{
+      color:white;
+  }
