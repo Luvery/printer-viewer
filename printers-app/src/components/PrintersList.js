@@ -33,8 +33,8 @@ class PrintersList extends Component {
     return (
       <div className='wrapper'>
         {printers.printers.map((printer) => (
-          <div key={printer.id}>
-            <Printer data={printer} className='listItem' />
+          <div key={printer.id} className='test'>
+            <Printer data={printer} />
           </div>
         ))}
       </div>

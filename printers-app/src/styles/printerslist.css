@@ -1,7 +1,10 @@
 .wrapper {
     display: flex;
     flex-wrap: wrap;
-     justify-content: center;
+    justify-content: center;
     width: 100%;
     align-items: center;
+}
+.test{
+    flex: 0 1 400px;
 }

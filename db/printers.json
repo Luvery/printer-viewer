@@ -3,23 +3,34 @@
     {
       "id": 1,
       "brand": "Brother",
-      "model": "dcp-t520w",
-      "type": "atramentowa",
-      "price": 1000
+      "model": "dcp-b7520dw",
+      "type": "laserowa",
+      "price": 1500,
+      "picture": "https://www.brother.eu/-/media/product-images/devices/printers/dcp/dcpb7520dw/pl/dcpb7520dw_main.png?rev=0740fa4a9cc842008608c4f918cba8a5"
     },
     {
       "id": 2,
       "brand": "Brother",
       "model": "dcp-t525w",
       "type": "atramentowa",
-      "price": 1000
+      "price": 1000,
+      "picture": "https://www.brother.eu/-/media/product-images/devices/printers/dcp/dcp-t525w/pl/dcp-t525w_main.png?rev=022b3c8f5605447eae2392e32d85e646"
     },
     {
       "id": 3,
       "brand": "Brother",
-      "model": "dcp-b7520dw",
-      "type": "laserowa",
-      "price": 1500
+      "model": "dcp-t520w",
+      "type": "atramentowa",
+      "price": 1000,
+      "picture": "https://www.brother.eu/-/media/product-images/devices/printers/dcp/dcpb7520dw/pl/dcpb7520dw_main.png?rev=0740fa4a9cc842008608c4f918cba8a5"
+    },
+    {
+      "id": 4,
+      "brand": "Brother",
+      "model": "duplicate",
+      "type": "igłowa",
+      "price": 1000,
+      "picture": ""
     }
   ]
 }

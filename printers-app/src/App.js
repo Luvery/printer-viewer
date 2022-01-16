@@ -6,9 +6,9 @@ import PrintersList from './components/PrintersList';
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
+      <div className='App-header'>
         <PrintersList />
-      </header>
+      </div>
     </div>
   );
 }
