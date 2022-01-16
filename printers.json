@@ -1,0 +1,44 @@
+{
+  "printers": [
+    {
+      "id": 1,
+      "brand": "Brother",
+      "model": "dcp-b7520dw",
+      "type": "laserowa",
+      "color": true,
+      "price": 1500,
+      "picture": "https://www.brother.eu/-/media/product-images/devices/printers/dcp/dcpb7520dw/pl/dcpb7520dw_main.png?rev=0740fa4a9cc842008608c4f918cba8a5",
+      "website": "https://www.brother.pl/printers/laser-printers/dcp-b7520dw"
+    },
+    {
+      "id": 2,
+      "brand": "Brother",
+      "model": "dcp-t525w",
+      "type": "atramentowa",
+      "color": true,
+      "price": 1000,
+      "picture": "https://www.brother.eu/-/media/product-images/devices/printers/dcp/dcp-t525w/pl/dcp-t525w_main.png?rev=022b3c8f5605447eae2392e32d85e646",
+      "website": "https://www.brother.pl/printers/inkjet-printers/dcp-t525w"
+    },
+    {
+      "id": 3,
+      "brand": "Brother",
+      "model": "dcp-t520w",
+      "type": "atramentowa",
+      "color": true,
+      "price": 1000,
+      "picture": "https://www.brother.eu/-/media/product-images/devices/printers/dcp/dcp-t520w/pl/dcp-t520w_main.png?rev=a15d38823c584000bd248d8e480c54fe",
+      "website": "https://www.brother.pl/printers/inkjet-printers/dcp-t520w"
+    },
+    {
+      "id": 4,
+      "brand": "Brother",
+      "model": "dcp-1510 e",
+      "type": "laserowa",
+      "color": false,
+      "price": 799,
+      "picture": "https://www.drtusz.pl/images/zdjecia/baza/drukarki_produkty/thumbnails/urzadzenie-wielofunkcyjne-brother-dcp-1510-e.jpg.thumb_160x160.jpg",
+      "website": "https://www.drtusz.pl/urzadzenia-laserowe-urzadzenie-wielofunkcyjne-brother-dcp-1510-p-5140.html?feed=ceneo&utm_source=ceneo.pl&utm_medium=cpc&utm_content=Urzadzenia+-%3E+Laserowe+-%3E+Drukarki+wielofunkcyjne+-%3E+Monochromatyczne&utm_campaign=old_v0&utm_term=5140&ceneo_spo=true"
+    }
+  ]
+}
