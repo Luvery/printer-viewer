@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/printer-viewer/static/css/main.7d35de1a.css",
-    "main.js": "/printer-viewer/static/js/main.477bd40a.js",
+    "main.css": "/printer-viewer/static/css/main.de31f5ed.css",
+    "main.js": "/printer-viewer/static/js/main.b004312a.js",
     "static/js/787.3a0348ac.chunk.js": "/printer-viewer/static/js/787.3a0348ac.chunk.js",
     "static/media/logo2.svg": "/printer-viewer/static/media/logo2.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/printer-viewer/index.html",
-    "main.7d35de1a.css.map": "/printer-viewer/static/css/main.7d35de1a.css.map",
-    "main.477bd40a.js.map": "/printer-viewer/static/js/main.477bd40a.js.map",
+    "main.de31f5ed.css.map": "/printer-viewer/static/css/main.de31f5ed.css.map",
+    "main.b004312a.js.map": "/printer-viewer/static/js/main.b004312a.js.map",
     "787.3a0348ac.chunk.js.map": "/printer-viewer/static/js/787.3a0348ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d35de1a.css",
-    "static/js/main.477bd40a.js"
+    "static/css/main.de31f5ed.css",
+    "static/js/main.b004312a.js"
   ]
 }
