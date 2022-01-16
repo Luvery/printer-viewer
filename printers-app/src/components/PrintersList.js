@@ -1,8 +1,11 @@
+/* eslint-disable jsx-quotes */
 import React, { Component } from 'react';
+import Printer from './Printer';
 import { getPrinters } from '../utils/jsonWrapper';
-// import logo from '../logo.svg';
+import logo from '../logo2.svg';
+import '../styles/printerslist.css';
 
-class Printer extends Component {
+class PrintersList extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -28,9 +31,11 @@ class Printer extends Component {
 
   static renderPrinters(printers) {
     return (
-      <div>
+      <div className='wrapper'>
         {printers.printers.map((printer) => (
-          <div key={printer.id}>{printer.model}</div>
+          <div key={printer.id}>
+            <Printer data={printer} className='listItem' />
+          </div>
         ))}
       </div>
     );
@@ -40,12 +45,11 @@ class Printer extends Component {
     const localVariables = this.state;
     const printersDivs = localVariables.loading ? (
       // eslint-disable-next-line jsx-quotes
-      //   <img src={logo} className='App-logo' alt='logo' />
-      <p>test</p>
+      <img src={logo} className='App-logo' alt='logo' />
     ) : (
-      <div>{Printer.renderPrinters(localVariables.printersList)}</div>
+      <div>{PrintersList.renderPrinters(localVariables.printersList)}</div>
     );
     return <div>{printersDivs}</div>;
   }
 }
-export default Printer;
+export default PrintersList;
