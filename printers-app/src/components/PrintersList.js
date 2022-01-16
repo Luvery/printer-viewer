@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable jsx-quotes */
 import React, { Component } from 'react';
 import Printer from './Printer';
@@ -32,11 +33,13 @@ class PrintersList extends Component {
   static renderPrinters(printers) {
     return (
       <div className='wrapper'>
-        {printers.printers.map((printer) => (
-          <div key={printer.id} className='test'>
-            <Printer data={printer} />
-          </div>
-        ))}
+        {printers.printers
+          .map((printer) => (
+            <div key={printer.id} className='test'>
+              <Printer data={printer} />
+            </div>
+          ))
+          .sort((a, b) => a.props.children.props.data.price - b.props.children.props.data.price)}
       </div>
     );
   }
