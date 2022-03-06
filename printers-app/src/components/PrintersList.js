@@ -32,14 +32,16 @@ class PrintersList extends Component {
 
   static renderPrinters(printers) {
     return (
-      <div className='wrapper'>
-        {printers.printers
-          .map((printer) => (
-            <div key={printer.id} className='test'>
-              <Printer data={printer} />
-            </div>
-          ))
-          .sort((a, b) => a.props.children.props.data.price - b.props.children.props.data.price)}
+      <div className='container'>
+        <div className='row'>
+          {printers.printers
+            .map((printer) => (
+              <div key={printer.id} className='col'>
+                <Printer data={printer} />
+              </div>
+            ))
+            .sort((a, b) => a.props.children.props.data.price - b.props.children.props.data.price)}
+        </div>
       </div>
     );
   }
