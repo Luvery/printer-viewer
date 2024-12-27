@@ -14,8 +14,8 @@ export default function Layout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>
+    <html className="h-full bg-white" lang="en">
+      <body className="h-full">
         <Navbar />
         <main>{children}</main>
       </body>

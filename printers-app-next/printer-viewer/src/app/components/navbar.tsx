@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Dialog, DialogPanel, PopoverGroup } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
@@ -17,8 +18,10 @@ export default function Navbar() {
         <div className="flex lg:flex-1">
           <Link href="\" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img
-              alt=""
+            <Image
+              width={12}
+              height={12}
+              alt=" logos"
               src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
               className="h-8 w-auto"
             />
@@ -59,8 +62,10 @@ export default function Navbar() {
           <div className="flex items-center justify-between">
             <Link href="\" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
-                alt=""
+              <Image
+                width={12}
+                height={12}
+                alt="logos"
                 src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
                 className="h-8 w-auto"
               />
