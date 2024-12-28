@@ -26,28 +26,6 @@ export default function SignupForm() {
         <form action={action} className="space-y-6">
           <div>
             <label
-              htmlFor="name"
-              className="block text-sm/6 font-medium text-gray-900"
-            >
-              Name
-            </label>
-            <div className="mt-2">
-              <input
-                id="name"
-                name="name"
-                placeholder="Name"
-                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
-              />
-            </div>
-          </div>
-          {state?.errors?.name && (
-            <p className="mt-2 text-sm text-red-500 peer-[&:not(:placeholder-shown):not(:focus):invalid]:block">
-              {state.errors.name}
-            </p>
-          )}
-
-          <div>
-            <label
               htmlFor="email"
               className="block text-sm/6 font-medium text-gray-900"
             >
